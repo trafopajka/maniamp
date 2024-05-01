@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Manifold")(type "KiCad")(uri "${KIPRJMOD}/Manifold.kicad_sym")(options "")(descr ""))
+)
