@@ -2,3 +2,5 @@ ManiAmpPCB-backups
 SnapEDA/*.htm
 *.bak
 *.lck
+*auto_saved*
+fp-info-cache
