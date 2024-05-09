@@ -1,2 +1,4 @@
 
 C   8   https://www.tme.eu/cz/details/r82dc3680dq60k/kondenzatory-foliove-tht/kemet/
+
+Tranzistor k DSP: https://www.tme.eu/cz/details/mmbt3906wt1g/tranzistory-pnp-smd/onsemi/

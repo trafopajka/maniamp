@@ -471,6 +471,22 @@
     [
       "68848034-b876-4050-8b11-378a17137257",
       ""
+    ],
+    [
+      "f078a227-be2b-4508-9004-00ac4b51165b",
+      "DSP"
+    ],
+    [
+      "fad5cabd-6d81-4ca9-8826-5cb56d94cad8",
+      "Power cascade"
+    ],
+    [
+      "be90d35f-197f-4f0c-aafc-06cd9278b5f8",
+      "Amplifier"
+    ],
+    [
+      "665179af-c21a-42bb-9769-501d24f03c62",
+      "Controller"
     ]
   ],
   "text_variables": {}
