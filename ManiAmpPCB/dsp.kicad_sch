@@ -389,6 +389,81 @@
         )
       )
     )
+    (symbol "INA134UA:INA134UA" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at -12.7 13.7 0)
+        (effects (font (size 1.27 1.27)) (justify left bottom))
+      )
+      (property "Value" "INA134UA" (at -12.7 -16.7 0)
+        (effects (font (size 1.27 1.27)) (justify left bottom))
+      )
+      (property "Footprint" "INA134UA:SOIC127P599X175-8N" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify bottom) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "MF" "Texas Instruments" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify bottom) hide)
+      )
+      (property "Description" "\nSingle, Audio Differential Line Receivers, 0dB (G=1)\n" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify bottom) hide)
+      )
+      (property "Package" "SOIC-8 Texas Instruments" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify bottom) hide)
+      )
+      (property "Price" "None" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify bottom) hide)
+      )
+      (property "SnapEDA_Link" "https://www.snapeda.com/parts/INA134UA/Texas+Instruments/view-part/?ref=snap" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify bottom) hide)
+      )
+      (property "MP" "INA134UA" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify bottom) hide)
+      )
+      (property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=10479&manufacturer=Texas Instruments&part_name=INA134UA&search_term=ina134" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify bottom) hide)
+      )
+      (property "Availability" "In Stock" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify bottom) hide)
+      )
+      (property "Check_prices" "https://www.snapeda.com/parts/INA134UA/Texas+Instruments/view-part/?ref=eda" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify bottom) hide)
+      )
+      (symbol "INA134UA_0_0"
+        (rectangle (start -12.7 -12.7) (end 12.7 12.7)
+          (stroke (width 0.41) (type default))
+          (fill (type background))
+        )
+        (pin input line (at -17.78 0 0) (length 5.08)
+          (name "REF" (effects (font (size 1.016 1.016))))
+          (number "1" (effects (font (size 1.016 1.016))))
+        )
+        (pin input line (at -17.78 2.54 0) (length 5.08)
+          (name "-IN" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016))))
+        )
+        (pin input line (at -17.78 5.08 0) (length 5.08)
+          (name "+IN" (effects (font (size 1.016 1.016))))
+          (number "3" (effects (font (size 1.016 1.016))))
+        )
+        (pin power_in line (at 17.78 -10.16 180) (length 5.08)
+          (name "V-" (effects (font (size 1.016 1.016))))
+          (number "4" (effects (font (size 1.016 1.016))))
+        )
+        (pin bidirectional line (at -17.78 -5.08 0) (length 5.08)
+          (name "SENSE" (effects (font (size 1.016 1.016))))
+          (number "5" (effects (font (size 1.016 1.016))))
+        )
+        (pin output line (at 17.78 5.08 180) (length 5.08)
+          (name "OUT" (effects (font (size 1.016 1.016))))
+          (number "6" (effects (font (size 1.016 1.016))))
+        )
+        (pin power_in line (at 17.78 10.16 180) (length 5.08)
+          (name "V+" (effects (font (size 1.016 1.016))))
+          (number "7" (effects (font (size 1.016 1.016))))
+        )
+      )
+    )
     (symbol "Regulator_Linear:AP1117-33" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -3.81 3.175 0)
         (effects (font (size 1.27 1.27)))
@@ -1325,8 +1400,8 @@
     (property "Datasheet" "~" (at 114.3 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 06fbc8c0-fc7c-43cf-a52f-dd9a1919398c))
     (pin "1" (uuid a6e11327-a047-4321-bb19-925b69115f9d))
+    (pin "2" (uuid 06fbc8c0-fc7c-43cf-a52f-dd9a1919398c))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -1402,8 +1477,8 @@
     (property "Datasheet" "~" (at 171.45 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid f76cc047-3ceb-4b1e-a9e8-a157885bb432))
     (pin "1" (uuid 5ea86904-b174-48cd-868c-c56dbae0334f))
+    (pin "2" (uuid f76cc047-3ceb-4b1e-a9e8-a157885bb432))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -1504,8 +1579,8 @@
     (property "Datasheet" "~" (at 85.09 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 42085b74-b7d5-4bbd-aca2-7d781dfcd7e0))
     (pin "1" (uuid ac307f18-8245-49bb-bbf4-966c8c297f69))
+    (pin "2" (uuid 42085b74-b7d5-4bbd-aca2-7d781dfcd7e0))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -1530,8 +1605,8 @@
     (property "Datasheet" "~" (at 105.41 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 9e7fc43b-7fe0-432b-a819-a7c7dbdca7d0))
     (pin "1" (uuid 70d3aa5b-7ddd-4bfa-b90e-1b9b7e86fc10))
+    (pin "2" (uuid 9e7fc43b-7fe0-432b-a819-a7c7dbdca7d0))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -1606,8 +1681,8 @@
     (property "Datasheet" "~" (at 154.94 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 703200e0-3d86-4f20-a294-a7f96fb397fa))
     (pin "1" (uuid 129c6d9a-a66b-4fe9-85fa-0b85107ea0bd))
+    (pin "2" (uuid 703200e0-3d86-4f20-a294-a7f96fb397fa))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -1657,9 +1732,9 @@
     (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf" (at 173.99 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "3" (uuid 03fd9a3d-6ccd-41e0-9979-5f17d1fbc11f))
-    (pin "2" (uuid 1e91c471-b319-4325-90dd-f4481157265c))
     (pin "1" (uuid d40181ce-b532-4525-b575-680a149cd58a))
+    (pin "2" (uuid 1e91c471-b319-4325-90dd-f4481157265c))
+    (pin "3" (uuid 03fd9a3d-6ccd-41e0-9979-5f17d1fbc11f))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -1710,8 +1785,8 @@
     (property "Datasheet" "~" (at 134.62 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 4c2a2477-0641-4d91-8bf0-f0f5e1cd5cf3))
     (pin "1" (uuid e0167f31-abad-4939-b65d-84953a9494dd))
+    (pin "2" (uuid 4c2a2477-0641-4d91-8bf0-f0f5e1cd5cf3))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -1741,6 +1816,64 @@
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
           (reference "#PWR028") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "INA134UA:INA134UA") (at 62.23 132.08 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 33f24acb-78de-4443-bd29-291d688ed298)
+    (property "Reference" "U9" (at 62.23 114.3 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "INA134UA" (at 62.23 116.84 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "INA134UA:SOIC127P599X175-8N" (at 62.23 132.08 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Datasheet" "" (at 62.23 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MF" "Texas Instruments" (at 62.23 132.08 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\nSingle, Audio Differential Line Receivers, 0dB (G=1)\n" (at 62.23 132.08 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "SOIC-8 Texas Instruments" (at 62.23 132.08 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (at 62.23 132.08 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/INA134UA/Texas+Instruments/view-part/?ref=snap" (at 62.23 132.08 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "INA134UA" (at 62.23 132.08 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=10479&manufacturer=Texas Instruments&part_name=INA134UA&search_term=ina134" (at 62.23 132.08 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (at 62.23 132.08 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/INA134UA/Texas+Instruments/view-part/?ref=eda" (at 62.23 132.08 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (pin "1" (uuid 19f029b2-da9a-4456-9c9d-8f14d962aa45))
+    (pin "2" (uuid 39d68ecc-fc60-4812-acf5-1ab39f71ac3f))
+    (pin "3" (uuid a31a7ddb-76d5-4088-a20f-1c64cff8020f))
+    (pin "4" (uuid f5384143-53c9-4604-99e2-d9cb9ec71eac))
+    (pin "5" (uuid efb471cb-ebd5-4d13-992e-6ff67a595a23))
+    (pin "6" (uuid 8cdcf9b6-5eb7-4d28-a7da-9401ec0f115c))
+    (pin "7" (uuid 143e04bc-c7ac-4591-bd04-7f0a308e1ade))
+    (instances
+      (project "ManiAmpPCB"
+        (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -1838,8 +1971,8 @@
     (property "Datasheet" "~" (at 144.78 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid b3f04bbc-c191-412a-b88a-bcc736709b34))
     (pin "1" (uuid 08976eff-95b6-4bdd-adb4-ba8d88c205ac))
+    (pin "2" (uuid b3f04bbc-c191-412a-b88a-bcc736709b34))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -1864,8 +1997,8 @@
     (property "Datasheet" "~" (at 134.62 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid cbca19ea-7517-495a-b72e-d95f246a1eaa))
     (pin "1" (uuid 7f07bc81-2488-43d4-85b9-be5dcc64677f))
+    (pin "2" (uuid cbca19ea-7517-495a-b72e-d95f246a1eaa))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -1916,54 +2049,54 @@
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1701.pdf" (at 140.97 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "26" (uuid 86d4749a-2173-4582-9042-696ca7607e04))
-    (pin "33" (uuid 5bff009a-faf4-4195-91c0-93d3c200f8e4))
-    (pin "21" (uuid f4f61c3a-7377-4f9a-bfe3-60d26d0c3c25))
-    (pin "38" (uuid 36110735-b708-4d54-9d69-b5c25c82f1e2))
-    (pin "48" (uuid b6990277-2ea0-4171-8500-05bd4bda7926))
-    (pin "6" (uuid 35cd65a0-8d17-4460-bc1c-dd011b36c86e))
-    (pin "39" (uuid b60e9c8f-0eb2-45e5-857e-0ab55aab1346))
-    (pin "7" (uuid db4fcf6a-01e3-4b20-b863-787216402b9a))
-    (pin "23" (uuid 646fcd7c-ac45-4118-83bd-1dc0d0806c22))
-    (pin "45" (uuid 55891497-8611-4f49-bc63-f035a6ff8d04))
-    (pin "3" (uuid bc018f6b-fc2a-489d-bff9-d55a4635ec68))
-    (pin "22" (uuid 1be54fa5-25d5-4a8c-a7eb-2dbebed6a9b5))
-    (pin "30" (uuid 6d4656a8-d7a8-4b82-afdb-78f83416a90e))
-    (pin "16" (uuid b4ea8c13-28d1-450b-a237-9d757733fd6b))
-    (pin "24" (uuid 6e9cfc42-9375-4a27-a92c-2a36159c5a4c))
-    (pin "44" (uuid 9658dccd-8693-4993-8c97-3e19df2b56a4))
-    (pin "43" (uuid 50ad9cf3-0238-4aee-bd83-00e2711bb0fb))
-    (pin "27" (uuid 9bf916fe-843f-4afc-b036-cf9c68ff9a4f))
-    (pin "25" (uuid cf79a90b-54c1-4408-8434-7f363398683e))
-    (pin "9" (uuid 60af7cc4-9894-4aa6-8c60-8659fa54e095))
-    (pin "28" (uuid df7725c9-08a8-4c5c-bfb7-6488ada17185))
-    (pin "36" (uuid 65d7c53f-f901-49a3-a9a6-beef7f283fbb))
-    (pin "5" (uuid e54ef8b3-453a-406e-b9ec-0d9b20bce804))
-    (pin "8" (uuid a35bd81a-007b-4667-8c24-e0998a6b2b10))
-    (pin "35" (uuid 6cec26df-9c24-4293-a221-cab69559d95f))
-    (pin "37" (uuid d7b37bf5-3edd-4dc3-9846-0590bf0e597b))
-    (pin "46" (uuid d568e374-2080-47b6-af2c-08373b587a87))
-    (pin "47" (uuid 25ff39c2-1efd-435c-9e47-3ca5e9bf3be4))
-    (pin "17" (uuid ce984e0f-103f-44fe-af97-b701c14bcd50))
-    (pin "18" (uuid ed5b9f36-56da-40a0-bbb7-4dadf24f366d))
-    (pin "2" (uuid e461bbd3-ac8a-4d69-b26f-b2240451e2f1))
-    (pin "19" (uuid 0e5f4705-e263-4d7a-aa81-bbe99f97198f))
     (pin "1" (uuid ecc86f04-9aad-4685-ae4c-147b694dbeee))
-    (pin "31" (uuid a9e0dcf2-bd43-4a8d-a9ad-4454bad0d238))
-    (pin "20" (uuid c962cbd6-b750-4b58-8c64-204f974a1190))
-    (pin "32" (uuid 8291f13f-b248-4b39-ae66-c5f5b609c2be))
-    (pin "40" (uuid 25be9460-7a98-4895-86d4-094d089deaab))
-    (pin "29" (uuid cfbbd785-6b30-4829-8c36-97bd04d8c160))
-    (pin "34" (uuid 5e68ece1-9b8e-4c6f-a3a2-6318dacaf4f3))
-    (pin "4" (uuid 1c642c1c-54c9-458e-ae3e-c23976a47540))
     (pin "10" (uuid 9adf1cb7-674d-4e08-ac37-05b10895d1ae))
     (pin "11" (uuid ba89b536-6cfc-4aca-849d-192896cd952c))
     (pin "12" (uuid 2ac98f30-a1bf-4b85-96f0-827642651d9d))
     (pin "13" (uuid 6fec4d79-c85e-4d91-969d-2aa7a6983cf1))
     (pin "14" (uuid 682a415c-fcab-4e5b-9000-0cab27c1e6f0))
     (pin "15" (uuid 68ae7a3f-66b9-43df-b95b-79c054808864))
-    (pin "42" (uuid 4de6377b-5548-4554-a583-1d46191142f8))
+    (pin "16" (uuid b4ea8c13-28d1-450b-a237-9d757733fd6b))
+    (pin "17" (uuid ce984e0f-103f-44fe-af97-b701c14bcd50))
+    (pin "18" (uuid ed5b9f36-56da-40a0-bbb7-4dadf24f366d))
+    (pin "19" (uuid 0e5f4705-e263-4d7a-aa81-bbe99f97198f))
+    (pin "2" (uuid e461bbd3-ac8a-4d69-b26f-b2240451e2f1))
+    (pin "20" (uuid c962cbd6-b750-4b58-8c64-204f974a1190))
+    (pin "21" (uuid f4f61c3a-7377-4f9a-bfe3-60d26d0c3c25))
+    (pin "22" (uuid 1be54fa5-25d5-4a8c-a7eb-2dbebed6a9b5))
+    (pin "23" (uuid 646fcd7c-ac45-4118-83bd-1dc0d0806c22))
+    (pin "24" (uuid 6e9cfc42-9375-4a27-a92c-2a36159c5a4c))
+    (pin "25" (uuid cf79a90b-54c1-4408-8434-7f363398683e))
+    (pin "26" (uuid 86d4749a-2173-4582-9042-696ca7607e04))
+    (pin "27" (uuid 9bf916fe-843f-4afc-b036-cf9c68ff9a4f))
+    (pin "28" (uuid df7725c9-08a8-4c5c-bfb7-6488ada17185))
+    (pin "29" (uuid cfbbd785-6b30-4829-8c36-97bd04d8c160))
+    (pin "3" (uuid bc018f6b-fc2a-489d-bff9-d55a4635ec68))
+    (pin "30" (uuid 6d4656a8-d7a8-4b82-afdb-78f83416a90e))
+    (pin "31" (uuid a9e0dcf2-bd43-4a8d-a9ad-4454bad0d238))
+    (pin "32" (uuid 8291f13f-b248-4b39-ae66-c5f5b609c2be))
+    (pin "33" (uuid 5bff009a-faf4-4195-91c0-93d3c200f8e4))
+    (pin "34" (uuid 5e68ece1-9b8e-4c6f-a3a2-6318dacaf4f3))
+    (pin "35" (uuid 6cec26df-9c24-4293-a221-cab69559d95f))
+    (pin "36" (uuid 65d7c53f-f901-49a3-a9a6-beef7f283fbb))
+    (pin "37" (uuid d7b37bf5-3edd-4dc3-9846-0590bf0e597b))
+    (pin "38" (uuid 36110735-b708-4d54-9d69-b5c25c82f1e2))
+    (pin "39" (uuid b60e9c8f-0eb2-45e5-857e-0ab55aab1346))
+    (pin "4" (uuid 1c642c1c-54c9-458e-ae3e-c23976a47540))
+    (pin "40" (uuid 25be9460-7a98-4895-86d4-094d089deaab))
     (pin "41" (uuid d18c7297-fd50-4f62-b7bf-bb11a36ea00c))
+    (pin "42" (uuid 4de6377b-5548-4554-a583-1d46191142f8))
+    (pin "43" (uuid 50ad9cf3-0238-4aee-bd83-00e2711bb0fb))
+    (pin "44" (uuid 9658dccd-8693-4993-8c97-3e19df2b56a4))
+    (pin "45" (uuid 55891497-8611-4f49-bc63-f035a6ff8d04))
+    (pin "46" (uuid d568e374-2080-47b6-af2c-08373b587a87))
+    (pin "47" (uuid 25ff39c2-1efd-435c-9e47-3ca5e9bf3be4))
+    (pin "48" (uuid b6990277-2ea0-4171-8500-05bd4bda7926))
+    (pin "5" (uuid e54ef8b3-453a-406e-b9ec-0d9b20bce804))
+    (pin "6" (uuid 35cd65a0-8d17-4460-bc1c-dd011b36c86e))
+    (pin "7" (uuid db4fcf6a-01e3-4b20-b863-787216402b9a))
+    (pin "8" (uuid a35bd81a-007b-4667-8c24-e0998a6b2b10))
+    (pin "9" (uuid 60af7cc4-9894-4aa6-8c60-8659fa54e095))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -1988,8 +2121,8 @@
     (property "Datasheet" "~" (at 171.45 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 550d7ca0-9775-4e7f-837c-874e54bcd758))
     (pin "1" (uuid 7129d138-9d56-4984-8386-d378fa14e7cd))
+    (pin "2" (uuid 550d7ca0-9775-4e7f-837c-874e54bcd758))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -2014,8 +2147,8 @@
     (property "Datasheet" "~" (at 144.78 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid ce0c3640-aa30-4a69-b9b8-01f30cd931e1))
     (pin "1" (uuid 135f6ae9-09a5-41fe-b3ad-2cdeafbc191c))
+    (pin "2" (uuid ce0c3640-aa30-4a69-b9b8-01f30cd931e1))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -2040,8 +2173,8 @@
     (property "Datasheet" "~" (at 85.09 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 21f57013-6916-42f6-a099-104ae28f5474))
     (pin "1" (uuid 5a69fcd0-f87e-43bb-9cc7-ef96fd727d14))
+    (pin "2" (uuid 21f57013-6916-42f6-a099-104ae28f5474))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -2066,8 +2199,8 @@
     (property "Datasheet" "~" (at 154.94 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 3284b4bb-eec8-48a0-b167-c1e3c5e585df))
     (pin "1" (uuid ef943519-5055-4fff-872d-53e8ea892fc4))
+    (pin "2" (uuid 3284b4bb-eec8-48a0-b167-c1e3c5e585df))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -2143,8 +2276,8 @@
     (property "Datasheet" "~" (at 113.03 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 987b8230-a009-4d77-be50-1b2c858d54c5))
     (pin "1" (uuid d93e06f5-9b2e-4c99-9d66-7679fc65e51d))
+    (pin "2" (uuid 987b8230-a009-4d77-be50-1b2c858d54c5))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -2169,8 +2302,8 @@
     (property "Datasheet" "~" (at 35.56 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid b65072cd-8e76-462b-8d01-f6e845e4ac0e))
     (pin "1" (uuid 30e66669-0276-423f-8b8d-d69170c61ea3))
+    (pin "2" (uuid b65072cd-8e76-462b-8d01-f6e845e4ac0e))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -2221,8 +2354,8 @@
     (property "Datasheet" "~" (at 165.1 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 0f64beb0-fae9-4a6a-b213-90dd59d1b0b3))
     (pin "1" (uuid 01153776-cc33-4dbb-8426-7963256f347c))
+    (pin "2" (uuid 0f64beb0-fae9-4a6a-b213-90dd59d1b0b3))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -2247,8 +2380,8 @@
     (property "Datasheet" "~" (at 134.62 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 55732e77-9189-434d-b0f7-753f7575c42b))
     (pin "1" (uuid 4cf60e12-2ac5-4b4b-9512-000010052c9b))
+    (pin "2" (uuid 55732e77-9189-434d-b0f7-753f7575c42b))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -2324,8 +2457,8 @@
     (property "Datasheet" "~" (at 59.69 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 75d6aa74-ae65-45fb-b831-732327ad3bc3))
     (pin "1" (uuid f7b445b7-328a-40b9-9699-1c7f45d73e9b))
+    (pin "2" (uuid 75d6aa74-ae65-45fb-b831-732327ad3bc3))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -2502,8 +2635,8 @@
     (property "Datasheet" "~" (at 41.91 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 5bf4d6d4-83bd-4368-b6dd-1543847c48eb))
     (pin "1" (uuid f42951b9-b353-4472-8c11-ae96421926ad))
+    (pin "2" (uuid 5bf4d6d4-83bd-4368-b6dd-1543847c48eb))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -2578,8 +2711,8 @@
     (property "Datasheet" "~" (at 105.41 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid d0e4d0a3-0c10-4718-994b-8a847ad58fdc))
     (pin "1" (uuid f4807b67-86e2-45ff-a045-0fd2ff2e5803))
+    (pin "2" (uuid d0e4d0a3-0c10-4718-994b-8a847ad58fdc))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -2654,8 +2787,8 @@
     (property "Datasheet" "~" (at 66.04 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 6de3fb5f-0869-40e0-8692-2f91c9b69106))
     (pin "1" (uuid 51450f06-edaf-4bb6-bd7e-b2a08bfe2f6f))
+    (pin "2" (uuid 6de3fb5f-0869-40e0-8692-2f91c9b69106))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -2680,8 +2813,8 @@
     (property "Datasheet" "~" (at 106.68 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 0353af9a-841a-4d50-8806-41eb60238df9))
     (pin "1" (uuid 6a1e7ef8-994d-44d2-ac83-b3c44034f014))
+    (pin "2" (uuid 0353af9a-841a-4d50-8806-41eb60238df9))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -2810,8 +2943,8 @@
     (property "Datasheet" "~" (at 165.1 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 4f329f18-d45e-4409-97ae-0209efe7e6fd))
     (pin "1" (uuid 8a9761fa-4043-4e6a-9448-db72068c3b60))
+    (pin "2" (uuid 4f329f18-d45e-4409-97ae-0209efe7e6fd))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -2862,8 +2995,8 @@
     (property "Datasheet" "~" (at 96.52 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 09ab82e5-2f7d-4287-bcd9-a0aaa310aeb3))
     (pin "1" (uuid c9898fcf-c102-4a44-a93f-c7b52a836695))
+    (pin "2" (uuid 09ab82e5-2f7d-4287-bcd9-a0aaa310aeb3))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"
@@ -2964,9 +3097,9 @@
     (property "Datasheet" "http://www.diodes.com/datasheets/AP1117.pdf" (at 53.34 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid de21e37e-3e1f-41a0-b43d-6a1f256d6d85))
-    (pin "2" (uuid 35844536-69df-4e5a-95eb-9396c682271c))
     (pin "1" (uuid 1605cc77-4c90-46ac-a5b1-9ec2fccc593d))
+    (pin "2" (uuid 35844536-69df-4e5a-95eb-9396c682271c))
+    (pin "3" (uuid de21e37e-3e1f-41a0-b43d-6a1f256d6d85))
     (instances
       (project "ManiAmpPCB"
         (path "/68848034-b876-4050-8b11-378a17137257/f078a227-be2b-4508-9004-00ac4b51165b"

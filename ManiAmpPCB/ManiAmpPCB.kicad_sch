@@ -24,7 +24,7 @@
     )
     (instances
       (project "ManiAmpPCB"
-        (path "/68848034-b876-4050-8b11-378a17137257" (page "5"))
+        (path "/68848034-b876-4050-8b11-378a17137257" (page "3"))
       )
     )
   )
@@ -41,7 +41,7 @@
     )
     (instances
       (project "ManiAmpPCB"
-        (path "/68848034-b876-4050-8b11-378a17137257" (page "4"))
+        (path "/68848034-b876-4050-8b11-378a17137257" (page "5"))
       )
     )
   )
@@ -50,15 +50,15 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid f078a227-be2b-4508-9004-00ac4b51165b)
-    (property "Sheetname" "DSP" (at 180.34 135.1784 0)
+    (property "Sheetname" "Audio processing" (at 180.34 135.1784 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "dsp.kicad_sch" (at 180.34 164.4146 0)
+    (property "Sheetfile" "audio_processing.kicad_sch" (at 180.34 164.4146 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
       (project "ManiAmpPCB"
-        (path "/68848034-b876-4050-8b11-378a17137257" (page "2"))
+        (path "/68848034-b876-4050-8b11-378a17137257" (page "4"))
       )
     )
   )
